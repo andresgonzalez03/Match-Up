@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuInferior">
+
+    <!-- Este fragment es el correspondiente al menu inferior de las pantallas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/bckMenu"
+        android:orientation="horizontal">
+
+        <!-- El menu inferior contiene cuatro opciones -->
+        <!-- Likes -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/likes"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- Scroll -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/scroll"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- Chats -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/chat"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- Perfil -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/profile"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
